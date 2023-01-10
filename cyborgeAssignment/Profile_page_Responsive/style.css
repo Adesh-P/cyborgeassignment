@@ -1,0 +1,1167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #1f2122;
+}
+a {
+    text-decoration: none;
+}
+.main {
+    width: 100%;
+    background-color: #1f2122;
+    height: auto;
+}
+.container {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    background-color: #1f2122;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.sub1 {
+    width: 23%;
+}
+.sub2 {
+    width: 23%;
+    display: flex;
+    position: relative;
+}
+.sub3 {
+    width: 48%;
+}
+.fa-bars {
+    display: none;
+}
+#check {
+    display: none;
+}
+#check:checked ~ ul {
+    left: 0;
+}
+input[type="text"] {
+    background-color: #27292a;
+    text-align: center;
+    height: 45px;
+    margin: 0px auto;
+    border-radius: 30px;
+    width: 235px;
+    font-size: 15px;
+    border: 1px solid #27292a;
+    color: #fff;
+    margin-top: 23px;
+}
+.fa-search {
+    color: #fff;
+    opacity: 0.5;
+}
+.search-icon {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 25px;
+}
+.logo {
+    padding:20px 0px;
+    margin-left: -10px;
+}
+div.sub3 ul {
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+}
+div.sub3 ul li {
+    margin: 9px;
+    margin-top: 20px;
+    padding: 15px;
+}
+div.sub3 ul li a {
+    color: #656565;
+    text-decoration: none;
+    font-size: 14px;
+}
+div.sub3 ul li a:hover {
+    color: #d75985;
+    transition: 1s;
+}
+div.sub3 ul li a.active {
+    color: #fff;
+}
+div.sub3 ul li a.active:hover {
+    color: #fff;
+}
+.profile {
+    background-color: #27292a;  
+    border-radius: 25px;
+}
+.profile:hover {  
+    background-color: #d75985;
+}
+div.sub3 ul li a.profile-hover:hover {
+    color: #fff;
+}
+.profile-img {
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    margin-left: 8px;
+}
+.container2 {
+    width: 82%;
+    margin: 0px auto;
+    background-color: #27292a;
+    padding: 10px;
+    border-radius: 15px;
+    padding-bottom: 60px;
+}
+.profile_main {
+    border-radius: 15px;
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 45px;
+    padding-bottom: 35px;
+    background-color: #1f2122;
+}
+.profile_wrapper {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(101, 101, 101, 0.3);
+}
+.profile_img {
+    width: 32%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    min-height: 355px;
+    cursor: pointer;
+}
+.image_profile {
+    width: 100%;
+    border-radius: 15px;
+}
+.alen_smithee {
+    width: 31.5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about_profile {
+    background-color: #27292a;
+    width: 32%;
+    margin-top: 75px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    max-height: 270px;
+}
+.offline_btn {
+    font-size: 14px;
+    color: #fff;
+    background-color: #d75985;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 58px;
+    width: 85px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+/* .offline_btn:hover {
+    color: #d75985;
+    background-color: #fff;
+} */
+.name {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: 900;
+}
+.para {
+    font-size: 15px;
+    color: #656565;
+    line-height: 1.8;
+    margin-top: 25px;
+}
+.stream_btn {
+    width: 185px;
+    margin-top: 30px;
+    border-radius: 25px;
+    font-size: 15px;
+    text-align: center;
+    color: #d75985;
+    border: 1px solid #d75985;
+    padding: 15px;
+    background-color: #1f2122;
+    cursor: pointer;
+}
+.stream_btn:hover {
+    background-color: #fff;
+    border: none;
+}
+.games_downloaded {
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(101, 101, 101, 0.8);
+}
+.margin {
+    margin-top: 10px;
+}
+.title {
+    color: #656565;
+    font-size: 14px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.number {
+    color: #d75985;
+    font-size: 14px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-weight: bold;
+}
+.border-bottom {
+    border-bottom: none;
+}
+.color {
+    color: #d75985;
+}
+.heading {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+.inner {
+    background-color: #27292a;
+    width: 23.5%;
+    border-radius: 15px;
+}
+.inner_image {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 30px;
+    min-height: 175px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img_first {
+    background-image: url("https://technext.github.io/cyborg/assets/images/clip-01.jpg");
+}
+.img_second {
+    background-image: url("https://technext.github.io/cyborg/assets/images/clip-02.jpg");
+}
+.img_third {
+    background-image: url("https://technext.github.io/cyborg/assets/images/clip-03.jpg");
+}
+.img_fourth {
+    background-image: url("https://technext.github.io/cyborg/assets/images/clip-04.jpg");
+}
+.image_subheading {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.first_clip {
+    padding: 20px 0px 30px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.fa-eye {
+    color: #d75985;
+    font-size: 14px;
+    padding: 20px 0px 30px;
+}
+.view {
+    font-size: 14px;
+}
+.fa-circle-play {
+    font-size: 35px;
+    margin-top: 75px;
+    margin-left: 50%;
+    transform: translate(-50%,0%);
+    color: #fff;
+}
+.btn2 {
+    width: 180px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #d75985;
+    border-radius: 25px;
+    padding: 15px 20px;
+    margin-top: 40px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn2:hover {
+    color: #d75985;
+    background-color: #fff;
+}
+.main_top {
+    margin-top: 60px;
+}
+.library_main {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid rgba(101, 101, 101, 0.3);
+}
+.game_heading {
+    color: #fff;
+    padding-top: 30px;
+    margin-left: 30px;
+    font-size: 34px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+.inner1 {
+    width: 7.5%;
+    /* height: 70px; */
+    border-radius: 20px;
+    margin-top: 20px;
+    min-height: 80px;
+    margin-bottom: 20px;
+}
+.inner_img1 {
+}
+.inner_img2 {
+}
+.inner_img3 {
+}
+.inr-img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.inner2, .inner3, .inner4, .inner5 {
+    width: 17.5%;
+}
+.inner2 p, .inner3 p, .inner4 p, .inner5 p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.8;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.sandbox {
+    color: #656565;
+    font-weight: normal;
+}
+.inner6 {
+    width: 22.5%;
+}
+.btn3 {
+    width: 160px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #656565;
+    padding: 15px 20px;
+    margin-left: 35px;
+    border-radius: 25px;
+    border: 1px solid #656565;
+    margin-top: 30px;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* .btn3:hover {
+    color: #d75985;
+    border: 1px solid #d75985;
+} */
+.padding_bottom {
+    padding-bottom: 10px;
+}
+.footer {
+    width: 100%;
+    margin: 10px auto;
+}
+div.footer p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2.5;
+}
+div.footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+div.footer p a:hover {
+    color: #d75985;
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .sub1 {
+        width: 20%;
+    }
+    .sub2 {
+        width: 20%;
+        display: flex;
+        position: relative;
+    }
+    .sub3 {
+        width: 58%;
+    }
+    input[type="text"] {
+        width: 200px;
+        font-size: 13px;
+    }
+    .search-icon {
+        display: block;
+        position: absolute;
+        top: 38px;
+        left: 20px;
+        font-size: 15px;
+    }
+    .logo {
+        width: 175px;
+    }
+    div.sub3 ul li {
+        margin: 10px;
+        margin-top: 27px;
+        padding: 8px;
+    }
+    .profile_wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .profile_img {
+        width: 31%;
+        height: auto;
+    }
+    .alen_smithee {
+        width: 31%;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .about_profile {
+        width: 31%;
+        margin-top: 70px;
+        height: auto;
+    }
+    .offline_btn {
+        font-size: 13px;
+        margin-top: 55px;
+        width: 82px;
+    }
+    .name {
+        margin-top: 25px;
+    }
+    .para {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-top: 25px;
+    }
+    .stream_btn {
+        width: 150px;
+        margin-top: 25px;
+        font-size: 13px;
+        padding: 14px;
+    }
+    .title {
+        font-size: 12px;
+    }
+    .number {
+        font-size: 12px;
+    }
+    .heading {
+        font-size: 30px;
+    }
+    .inner {
+        width: 30%;
+        margin: 10px;
+    }
+    .inner_image {
+        height: auto;
+    }
+    .first_clip {
+        font-size: 14px;
+    }
+    .fa-eye {
+        font-size: 13px;
+    }
+    .view {
+        font-size: 13px;
+    }
+    .btn2 {
+        width: 160px;
+        font-size: 12px;
+        padding: 13px 16px;
+    }
+    .library_main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .game_heading {
+        font-size: 30px;
+    }
+    .inner1 {
+        width: 14%;
+        height: auto;
+    }
+    .inner2, .inner3, .inner4 {
+        width: 26%;
+    }
+    .inner5, .inner6 {
+        width: 25%;
+    }
+    .inner2 p, .inner3 p, .inner4 p {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.6;
+        text-align: center;
+    }
+    .inner5 p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-top: 20px;
+        margin-left: 40px;
+        padding-bottom: 15px;
+    }
+    .btn3 {
+        width: 120px;
+        padding: 10px 15px;
+        margin-top: 20px;
+    }
+    div.footer p {
+        font-size: 14px;
+        line-height: 2.3;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #1f2122;
+    }
+    .sub1 {
+        width: 20%;
+    }
+    .sub2 {
+        display: none;
+    }
+    .sub3 {
+        width: 55%;
+    }
+    input[type="text"] {
+       display: none;
+    }
+    .logo {
+        padding:23px 0px;
+        width: 150px;
+    }
+    div.sub3 ul li {
+        margin: 5px;
+        margin-top: 24px;
+        padding: 10px;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    div.sub3 ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        text-align: center;
+        position: fixed; 
+        top: 80px;
+        left: -100%;
+    }
+    div.sub3 ul li {
+        background-color: #fff;
+        margin: 0px;
+        margin-top: 0px;
+        padding: 4px;
+        border-bottom: 1px solid rgba(101, 101, 101, 0.5);
+    }
+    div.sub3 ul li a {
+        font-size: 12px;
+    }
+    .sub3 ul li.profile {
+        width: 100%;
+        border-radius: 0;
+    }
+    .profile-img {
+        display: none;
+    }
+    .profile {
+        width: 90px;
+        height: 40px;
+    }
+    .profile_wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .profile_img {
+        width: 50%;
+        height: auto;
+    }
+    .alen_smithee {
+        width: 40%;
+        margin-left: 35px;
+    }
+    .about_profile {
+        width: 70%;
+        margin-top: -30px;
+        height: auto;
+    }
+    .offline_btn {
+        font-size: 13px;
+        margin-top: 55px;
+        width: 80px;
+    }
+    .name {
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: 30px;
+    }
+    .para {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-top: 30px;
+    }
+    .stream_btn {
+        width: 160px;
+        margin-top: 30px;
+        font-size: 14px;
+        padding: 14px;
+    }
+    .title {
+        font-size: 16px;
+    }
+    .number {
+        font-size: 15px;
+    }
+    .heading {
+        font-size: 28px;
+        font-weight: 900;
+    }
+    .inner {
+        width: 46%;
+        margin-top: 15px;
+    }
+    .inner_image {
+        height: auto;
+    }
+    .first_clip {
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .fa-eye {
+        font-size: 14px;
+    }
+    .view {
+        font-size: 14px;
+    }
+    .btn2 {
+        width: 150px;
+        font-size: 12px;;
+    }
+    .library_main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .game_heading {
+        font-size: 28px;
+    }
+    .inner1 {
+        width: 15%;
+        height: auto;
+    }
+    .inner2, .inner3{
+        width: 38.5%;
+    }
+    .inner4, .inner5, .inner6 {
+        width: 30.6%;
+    }
+
+    .inner2 p {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .inner3 p {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-top: 40px;
+        margin-left: -10px;
+    }
+    .inner4 p {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-top: 25px;
+        margin-left: -80px;
+        padding-bottom: 25px;
+    }
+    .inner5 p {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-top: 25px;
+        margin-left: 0px;
+        padding-bottom: 25px;
+    }
+    .btn3 {
+        width: 120px;
+        font-size: 13px;
+        padding: 13px 18px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    div.footer p {
+        font-size: 15px;
+        line-height: 2;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 82%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0px auto;
+        background-color: #1f2122;
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+    .sub1 {
+        width: 16%;
+    }
+    .sub2 {
+        display: none;
+    }
+    .sub3 {
+        width: 48%;
+    }
+    .logo {
+        width: 100px;
+        padding:20px 0px;
+        margin-top: 12px;
+        margin-left: -10px;
+    }
+    div.sub3 ul li {
+        margin: 4px;
+        margin-top: 30px;
+        padding: 6px;
+    }
+    div.sub3 ul li a {
+        font-size: 12px;
+    }
+    .profile {
+        background-color: #27292a;  
+        border-radius: 25px;
+        height: 30px;
+    }
+    .profile_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .profile_img {
+        width: 90%;
+        margin-bottom: 10px;
+        height: auto;
+    }
+    .alen_smithee {
+        width: 90%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .about_profile {
+        background-color: #27292a;
+        width: 90%;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        height: auto;
+    }
+    .offline_btn {
+        font-size: 12px;
+        margin-top: 40px;
+        width: 70px;
+    }
+    .name {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .para {
+        font-size: 12px;
+        line-height: 1.2;
+        margin-top: 20px;
+    }
+    .stream_btn {
+        width: 120px;
+        margin-top: 20px;
+        font-size: 12px;
+        padding: 12px;
+    }
+    .title {
+        font-size: 12px;
+    }
+    .number {
+        font-size: 12px;
+    }
+    .color {
+        color: #d75985;
+    }
+    .heading {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding-bottom: 10px;
+    }
+    .inner {
+        width: 43%;
+    }
+    .inner_image {
+        margin-top: 10px;
+        height: auto;
+    }
+    .first_clip {
+        font-size: 13px;
+    }
+    .fa-eye {
+        font-size: 12px;
+    }
+    .view {
+        font-size: 12px;
+    }
+    .fa-circle-play {
+        font-size: 30px;
+    }
+    .btn2 {
+        width: 135px;
+        font-size: 12px;
+        padding: 12px 14px;
+        margin-top: 10px;
+    }
+    .library_main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .game_heading {
+        padding-top: 20px;
+        font-size: 26px;
+        padding-bottom: 10px;
+    }
+    .inner1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .inner_img1 {
+        background-size: 20% auto;
+    } 
+    .inner_img2 {
+        background-size: 20% auto;
+    }
+    .inner_img3 {
+        background-size: 20% auto;
+    }
+    .inner2, .inner3, .inner4, .inner5 {
+        width: 49%;
+    }
+    .inr-img {
+        width: 30%;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+    .inner2 p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    .inner3 p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    .inner4 p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .inner5 p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .inner6 {
+        width: 100%;
+    }
+    .btn3 {
+        width: 120px;
+        font-size: 12px;
+        padding: 13px 15px;
+        margin-left: 50%;
+        transform: translate(-50%,-15px);
+    }
+    div.footer p {
+        font-size: 13px;
+        line-height: 2;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .sub1 {
+        width: 15%;
+    }
+    .sub2 {
+        width: 10%;
+        display: none;
+    }
+    .sub3 {
+        width: 80%;
+    }
+    .fa-bars {
+        display: block;
+        color: #fff;
+        font-size: 20px;
+    }
+    .checkbtn {
+        float: right;
+        margin-right: 10px;
+        margin-top: 35px;
+    }
+    .logo {
+        width: 120px;
+        padding:20px 0px;
+        margin-left: -10px;
+    }
+    div.sub3 ul {
+        width: 100%;
+        height: 100vh;
+        display: block;
+        position: fixed;
+        top: 110px;
+        left: 100%;
+    }
+    div.sub3 ul li {
+        text-align: center;
+        margin: 2px;
+        margin-top: 0px;
+        padding: 10px;
+        background-color: #fff;
+    }
+    div.sub3 ul li a {
+        font-size: 12px;
+        color: #000;
+    }
+    div.sub3 ul li a:hover {
+        color: #d75985;
+        transition: 2s;
+    }
+    .profile {
+        width: 100%;
+        margin: 0 auto;
+        height: 40px;
+        border-radius: 0;
+    }
+    .profile_wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .profile_img {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        height: auto;
+    }
+    .container2 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .alen_smithee {
+        width: 100%;
+        margin-top: -70px;
+        margin-bottom: 20px;
+       margin-left: 0;
+       text-align: center;
+    }
+    .about_profile {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        height: auto;
+    }
+    .offline_btn {
+        font-size: 10px;
+        padding: 9px 9px;
+        margin-top: 50px;
+        width: 70px;
+    }
+    .name {
+        font-size: 16px;
+        font-weight: 900;
+        margin-top: 25px;
+    }
+    .para {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-top: 25px;
+    }
+    .stream_btn {
+        width: 140px;
+        margin-top: 20px;
+        border-radius: 25px;
+        font-size: 13px;
+        padding: 14px;
+    }
+    .title {
+        font-size: 15px;
+    }
+    .number {
+        font-size: 14px;
+    }
+    .color {
+        color: #d75985;
+    }
+    .heading {
+        font-size: 22px;
+        margin-top: 25px;
+        padding-bottom: 15px;
+    }
+    .inner {
+        width: 98%;
+        border-radius: 15px;
+    }
+    .inner_image {
+        width: 92%;
+        height: auto;
+    }
+    .first_clip {
+        padding: 20px 0px 10px;
+        font-size: 15px;
+    }
+    .fa-eye {
+        font-size: 15px;
+        padding: 20px 0px 10px;
+    }
+    .view {
+        font-size: 15px;
+    }
+    .btn2 {
+        width: 160px;
+        font-size: 15px;
+        padding: 10px 15px;
+        margin-top: 40px;
+        margin-left: 50%;
+        transform: translate(-50%,-20px);
+    }
+    .library_main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .game_heading {
+        padding-top: 20px;
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    .inner1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .inr-img {
+        width: 30%;
+    }
+    .inner_img1 {
+        background-size: 18% auto;
+    } 
+    .inner_img2 {
+        background-size: 18% auto;
+    }
+    .inner_img3 {
+        background-size: 18% auto;
+    }
+    .inner2, .inner3, .inner4, .inner5 {
+        width: 49%;
+    }
+    .inner2 p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-top: 25px;
+        margin-left: 0px;
+        font-weight: 900;
+    }
+    .inner3 p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-top: 25px;
+        margin-left: 0px;
+        font-weight: 900;
+    }
+    .inner4 p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-weight: 900;
+    }
+    .inner5 p {
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 1.6;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .inner6 {
+        width: 100%;
+    }
+    .btn3 {
+        width: 110px;
+        font-size: 14px;
+        padding: 12px 14px;
+        margin-left: 50%;
+        transform: translate(-50%,-15px);
+    }
+    div.footer p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+}

@@ -1,0 +1,977 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #1f2122;
+}
+.main {
+  width: 100%;
+  background-color: #1f2122;
+  height: auto;
+}
+.container {
+  width: 80%;
+  display: flex;
+  margin: 0px auto;
+  background-color: #1f2122;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.sub1 {
+  width: 25%;
+}
+.sub2 {
+  width: 25%;
+  display: flex;
+  position: relative;
+}
+.sub3 {
+  width: 50%;
+}
+input[type="text"] {
+  background-color: #27292a;
+  text-align: center;
+  height: 45px;
+  margin: 0px auto;
+  border-radius: 30px;
+  width: 235px;
+  font-size: 15px;
+  border: 1px solid #27292a;
+  color: #fff;
+  margin-top: 23px;
+}
+.fa-search {
+  color: #fff;
+  opacity: 0.5;
+}
+.search-icon {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+.logo {
+  padding: 20px 0px;
+  margin-left: -15px;
+}
+div.sub3 ul {
+  list-style-type: none;
+  display: inline-flex;
+  float: right;
+}
+div.sub3 ul li {
+  margin: 8px;
+  margin-top: 20px;
+  padding: 15px;
+}
+div.sub3 ul li a {
+  color: #656565;
+  text-decoration: none;
+  font-size: 14px;
+}
+div.sub3 ul li a:hover {
+  color: #d75985;
+  transition: 1s;
+}
+div.sub3 ul li a.active {
+  color: #d75985;
+}
+.profile {
+  width: 100px;
+  background-color: #27292a;
+  border-radius: 25px;
+}
+.profile:hover {
+  background-color: #d75985;
+}
+div.sub3 ul li a.profile-hover:hover {
+  color: #fff;
+}
+.profile-img {
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+  margin-left: 8px;
+}
+.container2 {
+  width: 80%;
+  margin: 0px auto;
+  background-color: #27292a;
+  padding: 10px;
+  border-radius: 15px;
+  padding-top: 60px;
+}
+.sub_div_first {
+  width: 92%;
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.first_banner {
+  width: 31%;
+  min-height: 295px;
+  border-radius: 15px;
+}
+.f-banner {
+  width: 100%;
+  border-radius: 15px;
+  min-height: 295px;
+}
+.second_banner {
+  width: 67%;
+  min-height: 295px;
+  border-radius: 15px;
+  background-image: url("https://technext.github.io/cyborg/assets/images/feature-right.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.fa-play {
+  color: #d75985;
+  font-size: 35px;
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.fortnite_text {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 65px;
+}
+.sub_div_second,
+.sub_div_third {
+  width: 92%;
+  margin: 0 auto;
+  background-color: #1f2122;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.sub_div_third_margin {
+  margin-top: 60px;
+  padding-bottom: 20px;
+}
+.sub_div_inner_first,
+.sub_div_inner_second {
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.div_title {
+  width: 49%;
+  border-radius: 15px;
+  background-color: #27292a;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 100px;
+}
+.div_logo {
+  width: 49%;
+  border-radius: 15px;
+  background-color: #27292a;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.fortnite_text2 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-top: 30px;
+}
+.sandbox_text {
+  color: #656565;
+  font-size: 17px;
+  font-weight: normal;
+}
+.left_fortnite {
+  width: 40%;
+}
+.right_fortnite {
+  width: 40%;
+  text-align: right;
+  padding-right: 10px;
+}
+.right_fortnite p {
+  color: #fff;
+  line-height: 1.7;
+  font-size: 15px;
+  margin-top: 30px;
+}
+.fa-star-color {
+  color: #ffff00;
+  cursor: pointer;
+}
+.fa-download-color,
+.fa-server,
+.fa-gamepad {
+  color: #d75985;
+  cursor: pointer;
+}
+.icons {
+  color: #fff;
+  line-height: 1.7;
+  font-size: 15px;
+  margin-top: 30px;
+  text-align: center;
+}
+.inner_second_div_image {
+  width: 31.5%;
+  border-radius: 15px;
+  min-height: 220px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.inner_second_image_first {
+}
+.inner_second_image_second {
+}
+.inner_second_image_third {
+}
+.img-fornite {
+  width: 100%;
+  border-radius: 15px;
+}
+.sub_div_inner_third,
+.sub_div_inner_fourth,
+.related_game_div {
+  width: 94%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+div.sub_div_inner_third p {
+  color: #656565;
+  line-height: 2;
+  font-weight: 400;
+  font-size: 16px;
+}
+div.sub_div_inner_third p a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+}
+div.sub_div_inner_third p a:hover {
+  color: #d75985;
+}
+.fortnite_btn {
+  width: 100%;
+  text-align: center;
+  padding: 14px 15px;
+  border-radius: 30px;
+  font-size: 15px;
+  border: 1px solid #d75985;
+  color: #d75985;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.fortnite_btn:hover {
+  background-color: #fff;
+  color: #d75985;
+  border: none;
+}
+.related_game_heading {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 900;
+  padding-top: 20px;
+}
+.game_text_color {
+  color: #d75985;
+}
+.related_game_inner {
+  width: 94%;
+  margin: 0 auto;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.related_game_sub_inner {
+  width: 48.5%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(101, 101, 101, 0.5);
+}
+.related_game_image {
+  width: 15%;
+  min-height: 80px;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.relate_img {
+  width: 100%;
+  height: 80px;
+  border-radius: 15px;
+}
+.related_image_1 {
+}
+.related_game_texts {
+  width: 50%;
+}
+.related_game_rating {
+  width: 24%;
+}
+.dota_text {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+.sandbox_text {
+  color: #656565;
+  font-size: 14px;
+  font-weight: normal;
+}
+.related_icons {
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.6;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.footer {
+  width: 100%;
+  margin: 10px auto;
+}
+div.footer p {
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 2.5;
+}
+div.footer p a {
+  color: #fff;
+  text-decoration: none;
+}
+div.footer p a:hover {
+  color: #d75985;
+}
+#check {
+  display: none;
+}
+.fa-bars {
+  color: #fff;
+  float: right;
+  font-size: 20px;
+  display: none;
+}
+#check:checked ~ ul {
+  left: 0;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 82%;
+    display: flex;
+    margin: 0px auto;
+    background-color: #1f2122;
+    padding: 10px;
+    padding-bottom: 10px;
+  }
+  .sub1 {
+    width: 20%;
+  }
+  .sub2 {
+    width: 18%;
+  }
+  .sub3 {
+    width: 62%;
+  }
+  input[type="text"] {
+    height: 40px;
+    margin-left: 20px;
+    width: 160px;
+  }
+  .search-icon {
+    display: block;
+    position: absolute;
+    top: 37px;
+    left: 25px;
+  }
+  .logo {
+    width: 180px;
+  }
+  div.sub3 ul li {
+    margin: 9px;
+    padding: 13px;
+    margin-top: 20px;
+  }
+  .sub_div_first {
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  .first_banner {
+    width: 30%;
+    margin: 10px;
+  }
+  .second_banner {
+    width: 65%;
+    margin: 10px;
+  }
+  .fortnite_text {
+    font-size: 40px;
+    padding-bottom: 60px;
+  }
+  .div_title {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .fortnite_text2 {
+    font-size: 15px;
+  }
+  .sandbox_text {
+    font-size: 15px;
+  }
+  .left_fortnite {
+    width: 48%;
+  }
+  .right_fortnite {
+    width: 48%;
+  }
+  .right_fortnite p {
+    font-size: 14px;
+  }
+  .icons {
+    font-size: 14px;
+  }
+  .inner_second_div_image {
+    width: 30%;
+    min-height: 220px;
+  }
+  div.sub_div_inner_third p {
+    line-height: 1.7;
+    font-size: 15px;
+  }
+  .fortnite_btn {
+    padding: 13px 14px;
+    font-size: 14px;
+  }
+  .related_game_heading {
+    font-size: 30px;
+  }
+  .related_game_sub_inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .related_game_image {
+    width: 19%;
+  }
+  .related_game_texts {
+    width: 44%;
+  }
+  .related_game_rating {
+    width: 27%;
+  }
+  .dota_text {
+    font-size: 17px;
+  }
+  .sandbox_text {
+    font-size: 15px;
+  }
+  .related_icons {
+    font-size: 15px;
+  }
+  div.footer p {
+    font-size: 14px;
+    line-height: 2.3;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sub1 {
+    width: 18%;
+  }
+  .sub2 {
+    width: 16%;
+    display: none;
+  }
+  .sub3 {
+    width: 64%;
+  }
+  .logo {
+    width: 170px;
+  }
+  div.sub3 ul li {
+    margin: 9px;
+    margin-top: 24px;
+    padding: 10px;
+  }
+  div.sub3 ul li a {
+    font-size: 13px;
+  }
+  .fa-bars {
+    display: block;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  div.sub3 ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+  }
+  div.sub3 ul li {
+    background-color: #fff;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 4px;
+    border-bottom: 1px solid rgba(101, 101, 101, 0.5);
+  }
+  div.sub3 ul li a {
+    font-size: 12px;
+  }
+  .sub3 ul li.profile {
+    width: 100%;
+    border-radius: 0;
+  }
+  .profile-img {
+    display: none;
+  }
+  .sub_div_first {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .first_banner {
+    width: 90%;
+    min-height: 480px;
+  }
+  .second_banner {
+    width: 90%;
+    min-height: 270px;
+    margin-top: 25px;
+  }
+  .fortnite_text {
+    font-size: 35px;
+  }
+  .sub_div_second,
+  .sub_div_third {
+    width: 85%;
+  }
+  .sub_div_inner_first,
+  .sub_div_inner_second {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .div_title {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .div_logo {
+    width: 95%;
+    margin-top: 10px;
+    min-height: 100px;
+  }
+  .fortnite_text2 {
+    font-size: 14px;
+  }
+  .sandbox_text {
+    font-size: 14px;
+  }
+  .right_fortnite p {
+    font-size: 14px;
+  }
+  .icons {
+    font-size: 14px;
+  }
+  .inner_second_div_image {
+    width: 95%;
+    min-height: 400px;
+    margin-bottom: 35px;
+  }
+  .sub_div_inner_third,
+  .sub_div_inner_fourth,
+  .related_game_div {
+    width: 90%;
+  }
+  div.sub_div_inner_third p {
+    font-size: 14px;
+  }
+  .fortnite_btn {
+    padding: 12px 13px;
+    font-size: 13px;
+  }
+  .related_game_heading {
+    font-size: 25px;
+  }
+  .related_game_inner {
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .related_game_sub_inner {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .dota_text {
+    font-size: 15px;
+  }
+  .sandbox_text {
+    font-size: 14px;
+  }
+  .related_icons {
+    font-size: 15px;
+    text-align: right;
+  }
+  div.footer p {
+    font-size: 13px;
+    line-height: 2.3;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sub1 {
+    width: 18%;
+  }
+  .sub2 {
+    width: 3%;
+    display: none;
+  }
+  .sub3 {
+    width: 76%;
+  }
+  .logo {
+    width: 160px;
+  }
+  div.sub3 ul li {
+    margin: 3px;
+    margin-top: 28px;
+    padding: 5px;
+  }
+  div.sub3 ul li a {
+    font-size: 12px;
+  }
+  .profile {
+    width: 80px;
+  }
+  .container2 {
+    width: 85%;
+  }
+  .sub_div_first {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    margin-top: -25px;
+  }
+  .first_banner {
+    width: 95%;
+    min-height: 480px;
+  }
+  .second_banner {
+    width: 95%;
+    min-height: 270px;
+    margin-top: 25px;
+  }
+  .fortnite_text {
+    font-size: 25px;
+    padding-bottom: 45px;
+  }
+  .sub_div_second,
+  .sub_div_third {
+    width: 85%;
+  }
+  .sub_div_inner_first,
+  .sub_div_inner_second {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .div_title {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .div_logo {
+    width: 95%;
+    margin-top: 10px;
+    min-height: 100px;
+  }
+  .fortnite_text2 {
+    font-size: 13px;
+  }
+  .sandbox_text {
+    font-size: 13px;
+  }
+  .right_fortnite p {
+    font-size: 13px;
+  }
+  .icons {
+    font-size: 13px;
+  }
+  .inner_second_div_image {
+    width: 95%;
+    min-height: 400px;
+    margin-bottom: 30px;
+  }
+  .sub_div_inner_third,
+  .sub_div_inner_fourth,
+  .related_game_div {
+    width: 90%;
+  }
+  div.sub_div_inner_third p {
+    font-size: 13px;
+    text-align: justify;
+  }
+  .fortnite_btn {
+    padding: 11px 12px;
+    font-size: 12px;
+  }
+  .related_game_heading {
+    font-size: 22px;
+  }
+  .related_game_inner {
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .related_game_sub_inner {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .dota_text {
+    font-size: 14px;
+  }
+  .sandbox_text {
+    font-size: 13px;
+  }
+  .related_icons {
+    font-size: 14px;
+    text-align: right;
+  }
+  div.footer p {
+    font-size: 12px;
+    line-height: 2.2;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sub1 {
+    width: 17%;
+  }
+  .sub2 {
+    width: 3%;
+    display: none;
+  }
+  .sub3 {
+    width: 50%;
+  }
+  .logo {
+    width: 140px;
+  }
+  div.sub3 ul li {
+    margin: 0px;
+    margin-top: 0px;
+    padding: 4px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(101, 101, 101, 0.5);
+  }
+  div.sub3 ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 90px;
+    left: -100%;
+    text-align: center;
+    transition: 2s;
+  }
+  div.sub3 ul li a {
+    font-size: 12px;
+  }
+  .profile {
+    width: 75px;
+  }
+  .fa-bars {
+    display: block;
+    margin-top: 28px;
+  }
+  .profile {
+    border-radius: 0px;
+    width: 100%;
+  }
+  .container2 {
+    width: 85%;
+    padding: 0px;
+    padding-bottom: 5px;
+  }
+  .sub_div_first {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    height: 510px;
+  }
+  .first_banner {
+    width: 100%;
+  }
+  .f-banner {
+    width: 100%;
+    border-radius: 15px;
+    min-height: 300px;
+    padding-top: 0;
+  }
+  .second_banner {
+    width: 100%;
+    min-height: 150px;
+    margin-top: -160px;
+  }
+  .fa-play {
+    top: 60px;
+  }
+  .fortnite_text {
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+  }
+  .sub_div_second,
+  .sub_div_third {
+    width: 95%;
+  }
+  .sub_div_inner_first,
+  .sub_div_inner_second {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .div_title {
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .left_fortnite {
+    width: 40%;
+  }
+  .right_fortnite {
+    width: 40%;
+  }
+  .div_logo {
+    width: 98%;
+    margin-top: 10px;
+    min-height: 100px;
+  }
+  .fortnite_text2 {
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .sandbox_text {
+    font-size: 15px;
+  }
+  .right_fortnite p {
+    font-size: 12px;
+  }
+  .icons {
+    font-size: 12px;
+  }
+  .inner_second_div_image {
+    width: 98%;
+    min-height: 380px;
+    margin-bottom: 0px;
+    margin-bottom: -150px;
+  }
+  .sub_div_inner_third,
+  .sub_div_inner_fourth,
+  .related_game_div {
+    width: 92%;
+  }
+  .img-fornite {
+    padding: 0 10px;
+    margin-bottom: 0;
+  }
+  div.sub_div_inner_third p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .fortnite_btn {
+    padding: 15px 5px;
+    font-size: 16px;
+  }
+  .related_game_heading {
+    font-size: 20px;
+  }
+  .related_game_inner {
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+  .related_game_sub_inner {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+  }
+  .dota_text {
+    font-size: 12px;
+  }
+  .sandbox_text {
+    font-size: 12px;
+  }
+  .related_icons {
+    font-size: 12px;
+    text-align: right;
+  }
+  div.footer p {
+    font-size: 11px;
+    line-height: 2;
+  }
+}
