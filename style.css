@@ -450,7 +450,7 @@ div.footer p a:hover {
     display: none;
 }
 #check:checked ~ ul {
-    left: 0;
+   right: -175%;
 }
 
 
@@ -668,11 +668,11 @@ div.footer p a:hover {
     div.sub3 ul {
         display: flex;
         flex-direction: column;
-        width: 100%; 
-        text-align: center;
+        width: 80%; 
+        margin: 0 auto;
+        text-align: left;
         position: fixed; 
         top: 80px;
-        left: -100%;
     }
     div.sub3 ul li {
         background-color: #fff;
@@ -884,6 +884,37 @@ div.footer p a:hover {
     div.sub3 ul li a {
         font-size: 12px;
     }
+    .fa-bars {
+        display: block;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    div.sub3 ul {
+        display: flex;
+        flex-direction: column;
+        width: 80%; 
+        margin: 0 auto;
+        text-align: left;
+        position: fixed; 
+        top: 80px;
+    }
+    div.sub3 ul li {
+        background-color: #fff;
+        margin: 0px;
+        margin-top: 0px;
+        padding: 4px;
+        border-bottom: 1px solid rgba(101, 101, 101, 0.5);
+    }
+    div.sub3 ul li a {
+        font-size: 12px;
+    }
+    .sub3 ul li.profile {
+        width: 100%;
+        border-radius: 0;
+    }
+    .profile-img {
+        display: none;
+    }
     .profile {
         width: 75px;
     }
@@ -1070,11 +1101,11 @@ div.footer p a:hover {
     div.sub3 ul {
         display: flex;
         flex-direction: column;
-        width: 100%; 
-        text-align: center;
+        width: 100%;
+        margin: 0 auto; 
+        text-align: left;
         position: fixed; 
         top: 80px;
-        left: -100%;
     }
     div.sub3 ul li {
         background-color: #fff;
@@ -1316,5 +1347,13 @@ div.footer p a:hover {
     .title1 {
         position: absolute;
         top: 10px;
+    }
+}
+@media (max-width: 280px) {
+    .sub_title1, .title1 {
+        margin-left: 30%;
+    }
+    .gaming_inner_sub2, .gaming_inner_sub3, .gaming_inner_sub4, .gaming_inner_sub5, .gaming_inner_sub6 {
+        width: 80%;
     }
 }

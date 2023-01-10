@@ -43,7 +43,7 @@ a {
     display: none;
 }
 #check:checked ~ ul {
-    left: 0;
+    right: -175%;
 }
 input[type="text"] {
     background-color: #27292a;
@@ -91,10 +91,10 @@ div.sub3 ul li a:hover {
     transition: 1s;
 }
 div.sub3 ul li a.active {
-    color: #fff;
+    color: #000;
 }
 div.sub3 ul li a.active:hover {
-    color: #fff;
+    color: #d75985;
 }
 .profile {
     background-color: #27292a;  
@@ -587,15 +587,18 @@ div.footer p a:hover {
         display: block;
         font-size: 20px;
         margin-top: 30px;
+        color: #fff;
+        float: right;
     }
     div.sub3 ul {
         display: flex;
         flex-direction: column;
-        width: 100%; 
-        text-align: center;
+        width: 80%; 
+        margin: 0 auto;
+        text-align: left;
         position: fixed; 
         top: 80px;
-        left: -100%;
+        z-index: 9;
     }
     div.sub3 ul li {
         background-color: #fff;
@@ -609,6 +612,7 @@ div.footer p a:hover {
     }
     .sub3 ul li.profile {
         width: 100%;
+        height: 30px;
         border-radius: 0;
     }
     .profile-img {
@@ -778,6 +782,34 @@ div.footer p a:hover {
     }
     div.sub3 ul li a {
         font-size: 12px;
+    }
+    div.sub3 ul {
+        display: flex;
+        flex-direction: column;
+        width: 80%; 
+        margin: 0 auto;
+        text-align: left;
+        position: fixed; 
+        top: 80px;
+        z-index: 9;
+    }
+    div.sub3 ul li {
+        background-color: #fff;
+        margin: 0px;
+        margin-top: 0px;
+        padding: 4px;
+        border-bottom: 1px solid rgba(101, 101, 101, 0.5);
+    }
+    div.sub3 ul li a {
+        font-size: 12px;
+    }
+    .sub3 ul li.profile {
+        width: 100%;
+        height: 30px;
+        border-radius: 0;
+    }
+    .profile-img {
+        display: none;
     }
     .profile {
         background-color: #27292a;  
@@ -962,8 +994,8 @@ div.footer p a:hover {
     }
     .checkbtn {
         float: right;
-        margin-right: 10px;
-        margin-top: 35px;
+        margin-right: 0px;
+        margin-top: 10px;
     }
     .logo {
         width: 120px;
@@ -971,19 +1003,21 @@ div.footer p a:hover {
         margin-left: -10px;
     }
     div.sub3 ul {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
         height: 100vh;
         display: block;
-        position: fixed;
-        top: 110px;
-        left: 100%;
+        position: fixed;   
+        top: 80px;
+        z-index: 9;
     }
     div.sub3 ul li {
         text-align: center;
-        margin: 2px;
+        margin: 0px;
         margin-top: 0px;
-        padding: 10px;
+        padding: 4px;
         background-color: #fff;
+        text-align: left;
     }
     div.sub3 ul li a {
         font-size: 12px;
@@ -991,12 +1025,11 @@ div.footer p a:hover {
     }
     div.sub3 ul li a:hover {
         color: #d75985;
-        transition: 2s;
     }
     .profile {
         width: 100%;
         margin: 0 auto;
-        height: 40px;
+        height: 30px;
         border-radius: 0;
     }
     .profile_wrapper {
@@ -1163,5 +1196,11 @@ div.footer p a:hover {
     div.footer p {
         font-size: 16px;
         line-height: 1.8;
+    }
+}
+
+@media (max-width:425px) {
+    .alen_smithee {
+        margin-top: -110px;
     }
 }

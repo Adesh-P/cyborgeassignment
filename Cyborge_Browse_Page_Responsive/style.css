@@ -529,7 +529,7 @@ div.footer p a:hover {
     display: none;
 }
 #check:checked ~ ul {
-    left: 0%;
+   right: -175%;
 }
 @media (max-width: 1200px) {
     .container {
@@ -761,11 +761,12 @@ div.footer p a:hover {
     div.sub3 ul {
         display: flex;
         flex-direction: column;
-        width: 100%; 
-        text-align: center;
+        width: 80%; 
+        margin: 0 auto;
+        text-align: left;
         position: fixed; 
         top: 80px;
-        left: -100%;
+        z-index: 9;
     }
     div.sub3 ul li {
         background-color: #fff;
@@ -988,6 +989,38 @@ div.footer p a:hover {
     div.sub3 ul li a {
         font-size: 12px;
     }
+    .fa-bars {
+        display: block;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    div.sub3 ul {
+        display: flex;
+        flex-direction: column;
+        width: 80%; 
+        margin: 0 auto;
+        text-align: left;
+        position: fixed; 
+        top: 80px;
+        z-index: 9;
+    }
+    div.sub3 ul li {
+        background-color: #fff;
+        margin: 0px;
+        margin-top: 0px;
+        padding: 4px;
+        border-bottom: 1px solid rgba(101, 101, 101, 0.5);
+    }
+    div.sub3 ul li a {
+        font-size: 12px;
+    }
+    .sub3 ul li.profile {
+        width: 100%;
+        border-radius: 0;
+    }
+    .profile-img {
+        display: none;
+    }
     .profile {
         width: 80px;
     }
@@ -1200,13 +1233,13 @@ div.footer p a:hover {
     div.sub3 ul {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
         height: 100vh;
         position: fixed;
-        top: 90px;
-        left: -100%;
-        text-align: center;
-        transition: 2s;
+        top: 80px;
+        text-align: left;
+        z-index: 9;
     }
     div.sub3 ul li a {
         font-size: 12px;
@@ -1408,5 +1441,20 @@ div.footer p a:hover {
     }
     .fa-chevron-left, .fa-chevron-right {
         margin-top: 40px;
+    }
+}
+@media (max-width: 320px) {
+    .top_download_inner {
+        justify-content: space-between;
+    }
+    .top_download_inner1 {
+        width: 20%;
+    }
+    .top_download_inner2 {
+        width: 60%;
+    }
+    .top_download_inner3 {
+        width: 1px;
+        display: none;
     }
 }

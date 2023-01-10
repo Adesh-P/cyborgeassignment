@@ -383,7 +383,7 @@ div.footer p a:hover {
   display: none;
 }
 #check:checked ~ ul {
-  left: 0;
+  right: -175%;
 }
 
 @media (max-width: 1200px) {
@@ -540,11 +540,11 @@ div.footer p a:hover {
   div.sub3 ul {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
     position: fixed;
     top: 80px;
-    left: -100%;
   }
   div.sub3 ul li {
     background-color: #fff;
@@ -595,6 +595,12 @@ div.footer p a:hover {
     display: flex;
     justify-content: space-evenly;
   }
+  .left_fortnite  {
+    width: 40%;
+  }
+  .right_fortnite {
+    width: 40%;
+  }
   .div_logo {
     width: 95%;
     margin-top: 10px;
@@ -624,6 +630,7 @@ div.footer p a:hover {
   }
   div.sub_div_inner_third p {
     font-size: 14px;
+    margin-top: -30px;
   }
   .fortnite_btn {
     padding: 12px 13px;
@@ -686,6 +693,37 @@ div.footer p a:hover {
   }
   div.sub3 ul li a {
     font-size: 12px;
+  }
+  .fa-bars {
+    display: block;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  div.sub3 ul {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    position: fixed;
+    top: 80px;
+  }
+  div.sub3 ul li {
+    background-color: #fff;
+    margin: 0px;
+    margin-top: 0px;
+    padding: 4px;
+    border-bottom: 1px solid rgba(101, 101, 101, 0.5);
+  }
+  div.sub3 ul li a {
+    font-size: 12px;
+  }
+  .sub3 ul li.profile {
+    width: 100%;
+    border-radius: 0;
+  }
+  .profile-img {
+    display: none;
   }
   .profile {
     width: 80px;
@@ -824,13 +862,12 @@ div.footer p a:hover {
   div.sub3 ul {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     height: 100vh;
     position: fixed;
-    top: 90px;
-    left: -100%;
-    text-align: center;
-    transition: 2s;
+    top: 80px;
+    text-align: left;
   }
   div.sub3 ul li a {
     font-size: 12px;
@@ -973,5 +1010,46 @@ div.footer p a:hover {
   div.footer p {
     font-size: 11px;
     line-height: 2;
+  }
+}
+@media (max-width: 425px) {
+  .inner_second_div_image {
+    margin-top: -8px;
+  }
+  .sub_div_inner_third {
+    width: 85%;
+    padding-top: 10px;
+  }
+  .sub_div_inner_fourth {
+    width: 85%;
+  }
+  .related_game_sub_inner {
+    justify-content: space-between;
+  }
+  .related_game_image {
+    width: 30%;
+  }
+  .related_game_texts {
+    width: 27%;
+  }
+  .related_game_rating {
+    width: 45%;
+  }
+}
+@media (max-width: 280px) {
+  .inner_second_div_image {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .inner_second_image_second, .inner_second_image_third {
+    margin-top: -60px;
+  }
+  .sub_div_inner_third {
+    width: 85%;
+    margin-top: -80px;
+  }
+  .sub_div_inner_fourth {
+    width: 85%;
+    margin-top: -15px;
   }
 }
